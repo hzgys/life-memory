@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local memory database (private data must never be committed)
+*.db
+*.db-journal
+*.db-wal
+*.sqlite
+*.sqlite3
+data/life_memory.db
+
+# Exports
+life-memory-export.json
+
+# macOS
+.DS_Store
